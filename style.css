@@ -1,0 +1,219 @@
+/*STYLE HEADER*/
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  font-family: "inter" sans-serif;
+  background-color: #f5f7fa;
+  padding-top: 22px;
+  padding-right: 105px;
+  padding-bottom: 22px;
+  padding-left: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons .login {
+  color: #28a745;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.buttons .signup {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buttons .signup:hover {
+  background-color: #218838;
+}
+
+/* STYLE GLOBALE */
+
+.CONTENEUR1 {
+  background-color: #f5f7fa; /* Light gray background */
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly */
+  align-items: center; /* Align content vertically in the center */
+  padding: 96px 144px; /* Top/bottom padding, left/right padding */
+  max-width: 1441px; /* Maximum width */
+  margin: auto; /* Center the container */
+  gap: 50px; /* Spacing between the text and the image */
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  color: #000000;
+  margin-bottom: 20px; /* Spacing between the title and the button */
+}
+
+h1 span {
+  color: #4caf4f; /* Green color for "from 8 years" */
+}
+
+p {
+  font-size: 18px;
+  color: #717171;
+  margin-bottom: 20px;
+}
+
+.Register {
+  background-color: #4caf4f; /* Green button */
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-content {
+  flex-basis: 50%; /* Allocate half of the space to the text */
+}
+
+.image-content {
+  flex-basis: 50%; /* Allocate half of the space to the image */
+  text-align: right; /* Align image to the right */
+}
+
+.image-content img {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto;
+}
+
+h3 {
+  font-size: 16px;
+  color: rgba(113, 113, 113, 1);
+  text-align: center;
+}
+
+.Register {
+  border: none;
+  background-color: #4caf4f;
+  color: white;
+  padding: 14px 32px;
+  width: 128px;
+  height: 52px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 16px auto;
+  padding: 0 144px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+  gap: 8px;
+  padding: 24px 32px;
+  border-radius: 8px;
+  width: 299px;
+  height: 260px;
+  text-align: center;
+}
+
+.cccc {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 144px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 36px;
+  color: rgba(77, 77, 77, 1);
+}
+
+.Learn {
+  border: none;
+  background-color: #4caf4f;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 4px;
+}
+
+.dddd {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 144px;
+}
+
+/* STYLE FOOTER */
+.learn2 {
+  border: none;
+  background-color: #4caf4f;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+}
+
+/*Style box4 footer*/
+.box4 {
+  background-color: #f5f7fa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 1200px;
+  max-height: 364px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.box4 h1 {
+  font-size: 64px;
+}
+
+/*Style footer noir (Copyrights...*/
+.footer-noir {
+  background-color: #263238;
+  padding-top: 64px;
+  padding-left: 165px;
+  padding-bottom: 64px;
+  padding-right: 165px;
+}
+.footer-noir p {
+  color: #f5f7fa;
+}
